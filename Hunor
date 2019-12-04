@@ -8,3 +8,5 @@ a = (int*)malloc(n * sizeof(int));
 srand(time(NULL));
 
 a[i]=-100+rand%201;
+
+Ez akar baszni
