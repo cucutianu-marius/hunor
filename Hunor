@@ -1,3 +1,10 @@
+//Tomb foglalasa dinamikusan pointerekkel
 int *a,n;
 cin>>n;
 a = (int*)malloc(n * sizeof(int));
+
+//Random szam generalas 
+#include <ctime>
+srand(time(NULL));
+
+a[i]=-100+rand%201;
